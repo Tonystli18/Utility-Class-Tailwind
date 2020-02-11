@@ -1,6 +1,6 @@
-## This is an example to use TailwindCSS in Laravel project.
+# This is an example to use TailwindCSS in Laravel project.
 
-# Development environment
+## Development environment
 
 - PHP 7.4.0
 - Wampserver64
@@ -9,7 +9,7 @@
 - npm 6.13.4
 - Editor VS Code
 
-# This project create a card
+## This project create a card
 The major logics are implemented in two files:
 - resources/views/welcome.blade.php
 - resources/sass/app.scss
