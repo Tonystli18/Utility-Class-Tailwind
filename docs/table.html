@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page shows a table about Assignments and their corresponding competencies scores.">
+    <title>RRU assignment</title>
+
+    <style>
+        .center {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 11px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 40px;
+          width: 80%;
+        }
+        table, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          text-align: center;
+          padding: 4px 4px;
+        }
+        th {
+          background-color: #464c6d;
+          color: white;
+          word-break: break-all;
+          vertical-align: top;
+          padding: 4px 4px;
+        }
+        .sub-header {
+          background-color: #6ebed8;
+          width: 9%;
+          text-align: center;
+        }
+        .col-1, .col-2 {
+          text-align: left;
+          padding: 2px;
+        }
+        .thick {
+          font-weight: bold;
+          padding: 2px;
+        }
+        p, h3, li {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+<table class="center">
+  <thead>
+    <tr>
+      <th rowspan="2">Assignments</th>
+      <th rowspan="2">Due Date</th>
+      <th colspan="6">Competencies</th>
+      <th rowspan="2" width="2%">Total(%)</th>
+    </tr>
+    <tr>
+      <td class="sub-header">A</td>
+      <td class="sub-header">B1</td>
+      <td class="sub-header">B2</td>
+      <td class="sub-header">C</td>
+      <td class="sub-header">D</td>
+      <td class="sub-header">G</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-1">Assignment 1</td>
+      <td class="col-2">Unit 1</td>
+      <td>20</td>
+      <td></td>
+      <td></td>
+      <td>5</td>
+      <td>10</td>
+      <td></td>
+      <td>35%</td>
+    </tr>
+    <tr>
+      <td class="col-1">Assignment 2</td>
+      <td class="col-2">Unit 3</td>
+      <td></td>
+      <td></td>
+      <td>15</td>
+      <td></td>
+      <td>5</td>
+      <td>5</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td class="col-1">Assignment 3</td>
+      <td class="col-2">Unit 6</td>
+      <td></td>
+      <td>15</td>
+      <td></td>
+      <td>15</td>
+      <td></td>
+      <td>10</td>
+      <td>40%</td>
+    </tr>
+    <tr>
+      <td class="col-1 thick">Total (%)</td>
+      <td></td>
+      <td>20%</td>
+      <td>15%</td>
+      <td>15%</td>
+      <td>20%</td>
+      <td>15%</td>
+      <td>15%</td>
+      <td>100%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>How and why I did it in this way?</h3>
+<p>
+Obviously, this is a frontend design work, and the theme has been defined. Even it could very likely be a part of dynamic web page,
+I don't think it needs to be implemented with div tag + CSS, because HTML table tags + CSS is simpler and easier to tweak table 
+appearance, and is responsive. And since the data in the table are pseudo-data, Javascript is not needed.
+</p>
+<p>
+Do I need to use a CSS framework, like BootStrap, Bulma, tailwindCSS? Not necessarily, it would be much simpler to use CSS and HTML
+directly. Using CSS framework could significantly improve the efficiency and speed of front end development, but this
+is a decision for the whole website presentation level, not for this level task.
+</p>
+<p>
+Internal CSS and HTML is used to create this html page. If needed, we can put CSS code into a seperate CSS file(external CSS) later.
+Since no information available to infer how the project behind this page organize/structure CSS code, I don't think we need to
+use any CSS pre-processors like Sass, Less as well.
+</p>
+<p>
+This page was created by VS code editor. Chrome is used as a test and debug tool. It was also tested on two other browsers: 
+Microsoft Edge, Safari.
+</p>
+<h3>What do you consider to be HTML best practices applied to online learning?</h3>
+<p>
+This is a big question. HTML, CSS and Javascript are 3 core concepts in web development, to implement a great e-learning business model,
+they need to work together, e.g in some well-known web frameworks like PHP laravel, Vue.js, React, Angular etc. 
+</p>
+<p>
+I think it would be hard to say what HTML best practices specifically apply to e-learning, but there are many HTML/CSS best practices
+can be applied when implement the frontend of an e-learning website, such as, 
+  <ul>
+    <li>Use meta tag(specify description, keywords, viewport, Robots), title tag to help SEO for course presentation page. </li>
+    <li>Do not mix CSS with HTML, unless we have very strong reason to use inline style</li>
+    <li>Seperate Javascript from HTML </li>
+    <li>Structure CSS and minimize the number of external CSS files</li>
+    <li>Minify website’s CSS, HTML & Javascript to increase speed of loading page</li>
+    <li>...</li>
+  </ul>
+</p>
+
+<p>
+Thanks,<br>
+Tony
+</p>
+
+</body>
+</html>
